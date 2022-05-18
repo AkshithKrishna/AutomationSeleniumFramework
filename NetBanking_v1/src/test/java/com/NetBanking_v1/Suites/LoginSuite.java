@@ -14,6 +14,7 @@ public class LoginSuite extends Base {
 		
 		LoginPage lp = new LoginPage(driver);
 		lp.loginTestcase(userName, password);
+		
 	}
 
 }
